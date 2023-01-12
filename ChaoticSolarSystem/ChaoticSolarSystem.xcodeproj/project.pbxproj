@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4457FC41B851BE500A0D6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457FC31B851BE500A0D6C3 /* AppDelegate.swift */; };
+		E4457FC61B851BE500A0D6C3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4457FC51B851BE500A0D6C3 /* GameScene.sks */; };
+		E4457FC81B851BE500A0D6C3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457FC71B851BE500A0D6C3 /* GameScene.swift */; };
+		E4457FCA1B851BE500A0D6C3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457FC91B851BE500A0D6C3 /* GameViewController.swift */; };
+		E4457FCD1B851BE500A0D6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4457FCB1B851BE500A0D6C3 /* Main.storyboard */; };
+		E4457FD21B851BE500A0D6C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4457FD01B851BE500A0D6C3 /* LaunchScreen.xib */; };
+		E4457FDE1B851BE600A0D6C3 /* ChaoticSolarSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4457FDD1B851BE600A0D6C3 /* ChaoticSolarSystemTests.swift */; };
+		E4AEB4B81B854F38004CD93C /* EngineExhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4AEB4B71B854F38004CD93C /* EngineExhaust.sks */; };
+		E4AEB4BD1B856D9C004CD93C /* impact.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4AEB4BB1B856D9C004CD93C /* impact.sks */; };
+		E4AEB4BE1B856D9C004CD93C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AEB4BC1B856D9C004CD93C /* spark.png */; };
+		E4C770931B877BCA00378C32 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4C770921B877BCA00378C32 /* explosion.wav */; };
+		E4C770951B877D6700378C32 /* battle_explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4C770941B877D6700378C32 /* battle_explosion.wav */; };
+		E4CA0FE21B8AC5B30090C509 /* BigExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4CA0FE11B8AC5B30090C509 /* BigExplosion.sks */; };
+		E4CA0FE41B8ACB8A0090C509 /* bigboom.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CA0FE31B8ACB8A0090C509 /* bigboom.wav */; };
+		E4CA0FEC1B901CEB0090C509 /* explode2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CA0FEB1B901CEB0090C509 /* explode2.wav */; };
+		E4CA0FF61B917B770090C509 /* BigAsteorid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA0FF51B917B770090C509 /* BigAsteorid.swift */; };
+		E4CA0FF81B9BAE220090C509 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CA0FF71B9BAE220090C509 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4457FD81B851BE600A0D6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4457FB61B851BE500A0D6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4457FBD1B851BE500A0D6C3;
+			remoteInfo = ChaoticSolarSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4457FBE1B851BE500A0D6C3 /* ChaoticSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaoticSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4457FC21B851BE500A0D6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4457FC31B851BE500A0D6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4457FC51B851BE500A0D6C3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E4457FC71B851BE500A0D6C3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E4457FC91B851BE500A0D6C3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E4457FCC1B851BE500A0D6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4457FD11B851BE500A0D6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E4457FD71B851BE600A0D6C3 /* ChaoticSolarSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaoticSolarSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4457FDC1B851BE600A0D6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4457FDD1B851BE600A0D6C3 /* ChaoticSolarSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaoticSolarSystemTests.swift; sourceTree = "<group>"; };
+		E4AEB4B71B854F38004CD93C /* EngineExhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EngineExhaust.sks; sourceTree = "<group>"; };
+		E4AEB4BB1B856D9C004CD93C /* impact.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = impact.sks; sourceTree = "<group>"; };
+		E4AEB4BC1B856D9C004CD93C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E4C770921B877BCA00378C32 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		E4C770941B877D6700378C32 /* battle_explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = battle_explosion.wav; sourceTree = "<group>"; };
+		E4CA0FE11B8AC5B30090C509 /* BigExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BigExplosion.sks; sourceTree = "<group>"; };
+		E4CA0FE31B8ACB8A0090C509 /* bigboom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bigboom.wav; sourceTree = "<group>"; };
+		E4CA0FEB1B901CEB0090C509 /* explode2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explode2.wav; sourceTree = "<group>"; };
+		E4CA0FF51B917B770090C509 /* BigAsteorid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigAsteorid.swift; sourceTree = "<group>"; };
+		E4CA0FF71B9BAE220090C509 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4457FBB1B851BE500A0D6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4457FD41B851BE600A0D6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4457FB51B851BE500A0D6C3 = {
+			isa = PBXGroup;
+			children = (
+				E4457FC01B851BE500A0D6C3 /* ChaoticSolarSystem */,
+				E4457FDA1B851BE600A0D6C3 /* ChaoticSolarSystemTests */,
+				E4457FBF1B851BE500A0D6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4457FBF1B851BE500A0D6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4457FBE1B851BE500A0D6C3 /* ChaoticSolarSystem.app */,
+				E4457FD71B851BE600A0D6C3 /* ChaoticSolarSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4457FC01B851BE500A0D6C3 /* ChaoticSolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E4CA0FF71B9BAE220090C509 /* Images.xcassets */,
+				E4CA0FEB1B901CEB0090C509 /* explode2.wav */,
+				E4CA0FE31B8ACB8A0090C509 /* bigboom.wav */,
+				E4C770941B877D6700378C32 /* battle_explosion.wav */,
+				E4C770921B877BCA00378C32 /* explosion.wav */,
+				E4AEB4B71B854F38004CD93C /* EngineExhaust.sks */,
+				E4457FC31B851BE500A0D6C3 /* AppDelegate.swift */,
+				E4457FC51B851BE500A0D6C3 /* GameScene.sks */,
+				E4457FC71B851BE500A0D6C3 /* GameScene.swift */,
+				E4457FC91B851BE500A0D6C3 /* GameViewController.swift */,
+				E4457FCB1B851BE500A0D6C3 /* Main.storyboard */,
+				E4457FD01B851BE500A0D6C3 /* LaunchScreen.xib */,
+				E4457FC11B851BE500A0D6C3 /* Supporting Files */,
+				E4AEB4BB1B856D9C004CD93C /* impact.sks */,
+				E4AEB4BC1B856D9C004CD93C /* spark.png */,
+				E4CA0FE11B8AC5B30090C509 /* BigExplosion.sks */,
+				E4CA0FF51B917B770090C509 /* BigAsteorid.swift */,
+			);
+			path = ChaoticSolarSystem;
+			sourceTree = "<group>";
+		};
+		E4457FC11B851BE500A0D6C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4457FC21B851BE500A0D6C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4457FDA1B851BE600A0D6C3 /* ChaoticSolarSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4457FDD1B851BE600A0D6C3 /* ChaoticSolarSystemTests.swift */,
+				E4457FDB1B851BE600A0D6C3 /* Supporting Files */,
+			);
+			path = ChaoticSolarSystemTests;
+			sourceTree = "<group>";
+		};
+		E4457FDB1B851BE600A0D6C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4457FDC1B851BE600A0D6C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4457FBD1B851BE500A0D6C3 /* ChaoticSolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4457FE11B851BE600A0D6C3 /* Build configuration list for PBXNativeTarget "ChaoticSolarSystem" */;
+			buildPhases = (
+				E4457FBA1B851BE500A0D6C3 /* Sources */,
+				E4457FBB1B851BE500A0D6C3 /* Frameworks */,
+				E4457FBC1B851BE500A0D6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaoticSolarSystem;
+			productName = ChaoticSolarSystem;
+			productReference = E4457FBE1B851BE500A0D6C3 /* ChaoticSolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4457FD61B851BE600A0D6C3 /* ChaoticSolarSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4457FE41B851BE600A0D6C3 /* Build configuration list for PBXNativeTarget "ChaoticSolarSystemTests" */;
+			buildPhases = (
+				E4457FD31B851BE600A0D6C3 /* Sources */,
+				E4457FD41B851BE600A0D6C3 /* Frameworks */,
+				E4457FD51B851BE600A0D6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4457FD91B851BE600A0D6C3 /* PBXTargetDependency */,
+			);
+			name = ChaoticSolarSystemTests;
+			productName = ChaoticSolarSystemTests;
+			productReference = E4457FD71B851BE600A0D6C3 /* ChaoticSolarSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4457FB61B851BE500A0D6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = xidongwu;
+				TargetAttributes = {
+					E4457FBD1B851BE500A0D6C3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2QWC5D382U;
+						LastSwiftMigration = 1340;
+					};
+					E4457FD61B851BE600A0D6C3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2QWC5D382U;
+						LastSwiftMigration = 1340;
+						TestTargetID = E4457FBD1B851BE500A0D6C3;
+					};
+				};
+			};
+			buildConfigurationList = E4457FB91B851BE500A0D6C3 /* Build configuration list for PBXProject "ChaoticSolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4457FB51B851BE500A0D6C3;
+			productRefGroup = E4457FBF1B851BE500A0D6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4457FBD1B851BE500A0D6C3 /* ChaoticSolarSystem */,
+				E4457FD61B851BE600A0D6C3 /* ChaoticSolarSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4457FBC1B851BE500A0D6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AEB4B81B854F38004CD93C /* EngineExhaust.sks in Resources */,
+				E4CA0FEC1B901CEB0090C509 /* explode2.wav in Resources */,
+				E4457FD21B851BE500A0D6C3 /* LaunchScreen.xib in Resources */,
+				E4CA0FE21B8AC5B30090C509 /* BigExplosion.sks in Resources */,
+				E4C770931B877BCA00378C32 /* explosion.wav in Resources */,
+				E4CA0FE41B8ACB8A0090C509 /* bigboom.wav in Resources */,
+				E4C770951B877D6700378C32 /* battle_explosion.wav in Resources */,
+				E4457FC61B851BE500A0D6C3 /* GameScene.sks in Resources */,
+				E4AEB4BE1B856D9C004CD93C /* spark.png in Resources */,
+				E4CA0FF81B9BAE220090C509 /* Images.xcassets in Resources */,
+				E4457FCD1B851BE500A0D6C3 /* Main.storyboard in Resources */,
+				E4AEB4BD1B856D9C004CD93C /* impact.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4457FD51B851BE600A0D6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4457FBA1B851BE500A0D6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4457FC81B851BE500A0D6C3 /* GameScene.swift in Sources */,
+				E4CA0FF61B917B770090C509 /* BigAsteorid.swift in Sources */,
+				E4457FCA1B851BE500A0D6C3 /* GameViewController.swift in Sources */,
+				E4457FC41B851BE500A0D6C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4457FD31B851BE600A0D6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4457FDE1B851BE600A0D6C3 /* ChaoticSolarSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4457FD91B851BE600A0D6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4457FBD1B851BE500A0D6C3 /* ChaoticSolarSystem */;
+			targetProxy = E4457FD81B851BE600A0D6C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4457FCB1B851BE500A0D6C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4457FCC1B851BE500A0D6C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4457FD01B851BE500A0D6C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4457FD11B851BE500A0D6C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4457FDF1B851BE600A0D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2QWC5D382U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E4457FE01B851BE600A0D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2QWC5D382U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4457FE21B851BE600A0D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChaoticSolarSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xidongwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4457FE31B851BE600A0D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChaoticSolarSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xidongwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4457FE51B851BE600A0D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChaoticSolarSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xidongwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaoticSolarSystem.app/ChaoticSolarSystem";
+			};
+			name = Debug;
+		};
+		E4457FE61B851BE600A0D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChaoticSolarSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xidongwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaoticSolarSystem.app/ChaoticSolarSystem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4457FB91B851BE500A0D6C3 /* Build configuration list for PBXProject "ChaoticSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4457FDF1B851BE600A0D6C3 /* Debug */,
+				E4457FE01B851BE600A0D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4457FE11B851BE600A0D6C3 /* Build configuration list for PBXNativeTarget "ChaoticSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4457FE21B851BE600A0D6C3 /* Debug */,
+				E4457FE31B851BE600A0D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4457FE41B851BE600A0D6C3 /* Build configuration list for PBXNativeTarget "ChaoticSolarSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4457FE51B851BE600A0D6C3 /* Debug */,
+				E4457FE61B851BE600A0D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4457FB61B851BE500A0D6C3 /* Project object */;
+}
