@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  SolarSystem
-//
-//  Created by Xidong Wu on 8/10/15.
-//  Copyright (c) 2015 xidongwu. All rights reserved.
-//
+
 
 import UIKit
 
