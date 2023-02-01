@@ -1,10 +1,4 @@
-//
-//  BigAsteorid.swift
-//  ChaoticSolarSystem
-//
-//  Created by Xidong Wu on 8/28/15.
-//  Copyright (c) 2015 xidongwu. All rights reserved.
-//
+
 
 import SpriteKit
 class BigAsteorid : SKSpriteNode {
