@@ -1,10 +1,3 @@
-//
-//  GameViewController.swift
-//  SunEarthMoon
-//
-//  Created by Xidong Wu on 8/13/15.
-//  Copyright (c) 2015 xidongwu. All rights reserved.
-//
 
 import UIKit
 import SpriteKit
