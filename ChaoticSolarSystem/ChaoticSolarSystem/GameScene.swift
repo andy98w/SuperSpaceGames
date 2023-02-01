@@ -1,10 +1,4 @@
-//
-//  GameScene.swift
-//  ChaoticSolarSystem
-//
-//  Created by Andy Wu on 10/19/20.
-//  Copyright (c) 2019 AndyWu. All rights reserved.
-//
+
 
 import SpriteKit
 import CoreMotion
