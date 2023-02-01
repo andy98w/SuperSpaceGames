@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  HeatThermal
-//
-//  Created by Xidong Wu on 8/14/15.
-//  Copyright (c) 2015 xidongwu. All rights reserved.
-//
+
 
 import UIKit
 
